@@ -1,4 +1,4 @@
-module github.com/pdfcpu/pdfcpu
+module github.com/teohrt/pdfcpu-temp
 
 go 1.20
 
