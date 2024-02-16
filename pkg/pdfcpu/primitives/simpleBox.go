@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/matrix"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/color"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/draw"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/matrix"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/types"
 )
 
 // SimpleBox is a positioned rectangular region within content.

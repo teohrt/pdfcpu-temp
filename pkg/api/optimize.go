@@ -21,10 +21,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu/pkg/log"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/model"
 )
 
 // Optimize reads a PDF stream from rs and writes the optimized PDF stream to w.

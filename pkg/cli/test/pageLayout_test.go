@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pdfcpu/pdfcpu/pkg/cli"
+	"github.com/teohrt/pdfcpu/pkg/cli"
 )
 
 func TestPageLayout(t *testing.T) {

@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu/pkg/log"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/color"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/types"
 )
 
 var (

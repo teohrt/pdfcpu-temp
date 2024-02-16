@@ -30,8 +30,8 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu/pkg/log"
 )
 
 const (

@@ -17,11 +17,11 @@ limitations under the License.
 package validate
 
 import (
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu/pkg/log"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/types"
 )
 
 var errInvalidPageAnnotArray = errors.New("pdfcpu: validatePageAnnotations: page annotation array without indirect references.")

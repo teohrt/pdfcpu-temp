@@ -21,10 +21,10 @@ import (
 	"io"
 	"math"
 
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/matrix"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/color"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/draw"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/matrix"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/types"
 )
 
 const (

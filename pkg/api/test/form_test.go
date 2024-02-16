@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/api"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/form"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu/pkg/api"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/form"
+	"github.com/teohrt/pdfcpu/pkg/pdfcpu/model"
 )
 
 /**************************************************************

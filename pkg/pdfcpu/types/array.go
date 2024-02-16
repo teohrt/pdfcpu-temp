@@ -21,7 +21,7 @@ import (
 
 	"strings"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
+	"github.com/teohrt/pdfcpu/pkg/log"
 )
 
 // Array represents a PDF array object.
