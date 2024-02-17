@@ -27,17 +27,17 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/pdfcpu/pdfcpu/pkg/filter"
-	"github.com/pdfcpu/pdfcpu/pkg/font"
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/draw"
-	pdffont "github.com/pdfcpu/pdfcpu/pkg/pdfcpu/font"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/format"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/matrix"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu-temp/pkg/filter"
+	"github.com/teohrt/pdfcpu-temp/pkg/font"
+	"github.com/teohrt/pdfcpu-temp/pkg/log"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/color"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/draw"
+	pdffont "github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/font"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/format"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/matrix"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
 )
 
 const stampWithBBox = false

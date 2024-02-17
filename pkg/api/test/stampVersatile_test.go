@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/api"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
+	"github.com/teohrt/pdfcpu-temp/pkg/api"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
 )
 
 func TestAlternatingPageNumbersViaWatermarkMap(t *testing.T) {

@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pdfcpu/pdfcpu/pkg/cli"
+	"github.com/teohrt/pdfcpu-temp/pkg/cli"
 )
 
 func TestPageMode(t *testing.T) {

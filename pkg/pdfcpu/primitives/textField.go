@@ -23,13 +23,13 @@ import (
 
 	"unicode/utf8"
 
-	"github.com/pdfcpu/pdfcpu/pkg/font"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/color"
-	pdffont "github.com/pdfcpu/pdfcpu/pkg/pdfcpu/font"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/format"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu-temp/pkg/font"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/color"
+	pdffont "github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/font"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/format"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
 )
 
 type TextField struct {

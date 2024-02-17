@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu-temp/pkg/log"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
 )
 
 type PageSpan struct {

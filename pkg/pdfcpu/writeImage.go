@@ -27,11 +27,11 @@ import (
 	"strings"
 
 	"github.com/hhrutter/tiff"
-	"github.com/pdfcpu/pdfcpu/pkg/filter"
-	"github.com/pdfcpu/pdfcpu/pkg/log"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/model"
-	"github.com/pdfcpu/pdfcpu/pkg/pdfcpu/types"
 	"github.com/pkg/errors"
+	"github.com/teohrt/pdfcpu-temp/pkg/filter"
+	"github.com/teohrt/pdfcpu-temp/pkg/log"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
+	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
 )
 
 // Errors to be identified.

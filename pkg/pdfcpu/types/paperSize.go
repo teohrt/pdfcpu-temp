@@ -205,4 +205,7 @@ var PaperSize = map[string]*Dim{
 	"AB":          {595, 729},   //  8.27" x 10.12"	 	 210 x 257 mm
 	"B40":         {292, 516},   //  4.06" x 7.17"		 103 x 182 mm
 	"Shikisen":    {238, 420},   //  3.31" x 5.83"		  84 x 148 mm
+
+	// Lulu Sizes
+	"US-Trade": {432, 648}, // 6" x 9"  152.4mm x 228.6mm
 }
