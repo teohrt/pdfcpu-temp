@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
-	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func listBoxes(t *testing.T, fileName string, pb *model.PageBoundaries) ([]string, error) {

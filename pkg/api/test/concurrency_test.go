@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
-	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func TestDisableConfigDir(t *testing.T) {

@@ -14,7 +14,7 @@
 	limitations under the License.
 */
 
-package github.com/teohrt/pdfcpu-temp/pkg/api
+package api
 
 import (
 	"io"

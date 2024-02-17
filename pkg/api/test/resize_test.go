@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
-	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func TestResizeByScaleFactor(t *testing.T) {

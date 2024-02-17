@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/font"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/color"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/draw"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
-	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func writeCoreFontDemoContent(xRefTable *model.XRefTable, p model.Page, fontName string) {
