@@ -1,4 +1,4 @@
-module api
+module github.com/teohrt/pdfcpu-temp/pkg/api
 
 go 1.21.5
 

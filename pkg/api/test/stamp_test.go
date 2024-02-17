@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/types"
+	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func testAddWatermarks(t *testing.T, msg, inFile, outFile string, selectedPages []string, mode, modeParam, desc string, onTop bool) {

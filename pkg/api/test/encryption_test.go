@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
+	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func listPermissions(t *testing.T, fileName string) ([]string, error) {

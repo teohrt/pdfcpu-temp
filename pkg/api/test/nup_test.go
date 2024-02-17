@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
+	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func testNUp(t *testing.T, msg string, inFiles []string, outFile string, selectedPages []string, desc string, n int, isImg bool, conf *model.Configuration) {

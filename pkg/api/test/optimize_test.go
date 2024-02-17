@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/teohrt/pdfcpu-temp/pkg/api"
+	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func TestOptimize(t *testing.T) {

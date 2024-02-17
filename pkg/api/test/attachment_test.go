@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teohrt/pdfcpu-temp/pkg/api"
 	"github.com/teohrt/pdfcpu-temp/pkg/pdfcpu/model"
+	"package github.com/teohrt/pdfcpu-temp/pkg/api"
 )
 
 func prepareForAttachmentTest(t *testing.T) error {

@@ -14,7 +14,7 @@
 	limitations under the License.
 */
 
-// Package api lets you integrate pdfcpu's operations into your Go backend.
+// package github.com/teohrt/pdfcpu-temp/pkg/api lets you integrate pdfcpu's operations into your Go backend.
 //
 // There are two api layers supporting all pdfcpu operations:
 //  1. The file based layer (used by pdfcpu's cli)
@@ -31,7 +31,7 @@
 //
 //	func OptimizeFile(inFile, outFile string, conf *pdf.Configuration) error
 //	func Optimize(rs io.ReadSeeker, w io.Writer, conf *pdf.Configuration) error
-package api
+package github.com/teohrt/pdfcpu-temp/pkg/api
 
 import (
 	"bufio"

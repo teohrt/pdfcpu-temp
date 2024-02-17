@@ -14,7 +14,7 @@
 	limitations under the License.
 */
 
-package api
+package github.com/teohrt/pdfcpu-temp/pkg/api
 
 import (
 	"bufio"
